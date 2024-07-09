@@ -14,6 +14,7 @@ clonezilla
 crda
 cryptsetup
 darkhttpd
+#dbus-broker (not needed)
 ddrescue
 dhclient
 dhcpcd
@@ -37,6 +38,7 @@ gptfdisk
 grml-zsh-config
 hdparm
 #intel-ucode
+iptables
 #ipw2100-fw
 #ipw2200-fw
 irssi
@@ -87,7 +89,9 @@ pv
 qemu-guest-agent
 #reflector
 reiserfsprogs
-rp-pppoe
+# https://archlinuxarm.org/forum/viewtopic.php?f=15&t=16595
+# Dependency problem ppp vs rp-pppoe
+# rp-pppoe
 rsync
 rxvt-unicode-terminfo
 screen
